@@ -13,11 +13,11 @@ import android.transition.Slide;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.payfort.fort.android.sdk.R;
 import com.payfort.sdk.android.dependancies.models.SdkResponse;
 import com.payfort.sdk.android.dependancies.utils.Utils;
 import com.shamanland.fonticon.FontIconView;
 
-import amorenew.com.payfort_lib.R;
 
 /*     */
 /*     */

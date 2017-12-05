@@ -19,6 +19,7 @@ import com.nispok.snackbar.Snackbar;
 import com.nispok.snackbar.SnackbarManager;
 import com.nispok.snackbar.enums.SnackbarType;
 import com.nispok.snackbar.listeners.ActionClickListener;
+import com.payfort.fort.android.sdk.R;
 import com.payfort.fort.android.sdk.activities.CreditCardResponseActivity;
 import com.payfort.fort.android.sdk.service.CreditPaymentService;
 import com.payfort.sdk.android.dependancies.models.FortRequest;
@@ -33,8 +34,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 import java.util.Map;
-
-import amorenew.com.payfort_lib.R;
 
 /*     */
 /*     */

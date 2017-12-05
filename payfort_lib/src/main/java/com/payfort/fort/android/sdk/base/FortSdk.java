@@ -94,7 +94,7 @@ import java.util.UUID;
     public static String getDeviceId(Context context)
 /*     */ {
 /* 176 */
-        TelephonyManager tm = (TelephonyManager) context.getSystemService("phone");
+        TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
 /*     */
         String tmSerial;
 /* 178 */
@@ -277,6 +277,9 @@ import java.util.UUID;
 /*     */   boolean onActivityResult(Map<String, String> requestParams, int resultCode, Intent data, FortInterfaces.OnTnxProcessed tnxProcessedCallback)
 /*     */ {
 /* 147 */
+        if (data == null || data.getExtras() == null)
+            return false;
+
         if (!data.getExtras().containsKey("sdkResp"))
 /*     */ {
 /* 149 */

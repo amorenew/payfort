@@ -17,6 +17,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.payfort.fort.android.sdk.R;
 import com.payfort.fort.android.sdk.base.FortSdk;
 import com.payfort.fort.android.sdk.base.SdkUtils;
 import com.payfort.sdk.android.dependancies.connection.ConnectionAdapter;
@@ -36,8 +37,6 @@ import java.util.Map;
 
 import javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.HttpsURLConnection;
-
-import amorenew.com.payfort_lib.R;
 
 /*     */
 /*     */

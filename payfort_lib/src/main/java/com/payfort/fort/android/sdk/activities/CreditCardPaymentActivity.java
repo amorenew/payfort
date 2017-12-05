@@ -25,6 +25,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.google.gson.Gson;
+import com.payfort.fort.android.sdk.R;
 import com.payfort.fort.android.sdk.base.FortSdk;
 import com.payfort.fort.android.sdk.base.SdkUtils;
 import com.payfort.fort.android.sdk.service.CreditPaymentService;
@@ -50,7 +51,6 @@ import java.util.Map;
 import javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.HttpsURLConnection;
 
-import amorenew.com.payfort_lib.R;
 
 /*     */
 /*     */

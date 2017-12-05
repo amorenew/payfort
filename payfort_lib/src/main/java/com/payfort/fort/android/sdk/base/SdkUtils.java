@@ -9,12 +9,11 @@ import android.net.Network;
 import android.net.NetworkInfo;
 import android.os.Build;
 
+import com.payfort.fort.android.sdk.R;
 import com.payfort.sdk.android.dependancies.models.SdkResponse;
 import com.payfort.sdk.android.dependancies.utils.Utils;
 
 import java.util.Map;
-
-import amorenew.com.payfort_lib.R;
 
 /*    */
 /*    */
@@ -48,7 +47,7 @@ import amorenew.com.payfort_lib.R;
     public static boolean haveNetworkConnection(Context context)
 /*    */ {
 /* 30 */
-        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService("connectivity");
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 /*    */
         NetworkInfo networkInfo;
 /* 32 */

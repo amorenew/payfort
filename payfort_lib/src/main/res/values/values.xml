@@ -111,7 +111,7 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="Theme.Transparent.NoTittle" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="Theme.Transparent.NoTittle" parent="Theme.AppCompat.Light.NoActionBar" />
 
     <style name="error_appearance">
         <item name="android:textSize">11sp</item>
